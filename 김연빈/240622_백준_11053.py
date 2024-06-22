@@ -7,6 +7,9 @@ start = arr[0]
 target = arr[0]
 ans = [1] * N
 
+# dp인듯 브루트포스인듯?
+# 1 <= N, arr <= 1000
+
 for i in range (1, N):
     # 작은 것들 중에 가장 ans가 큰거+1
     maxi = 0

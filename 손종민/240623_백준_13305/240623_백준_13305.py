@@ -15,6 +15,7 @@ road = list(map(int, input().split(' ')))
 city = list(map(int, input().split(' ')))
 # 마지막 도시 기름 가격은 의미가 없다
 city.pop()
+print(min(city))
 
 oil = 0
 cost = 0

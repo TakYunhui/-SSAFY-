@@ -11,7 +11,6 @@ def solution(brown, yellow):
                 ni, nj = i + 2, j + 2
                 if ni * nj == brown + yellow:
                     answer = [ni, nj]
-                    print(answer)
                     return answer
 
     return answer

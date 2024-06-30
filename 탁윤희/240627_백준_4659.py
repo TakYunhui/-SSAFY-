@@ -36,10 +36,10 @@ while True:
 
         # 3번 조건 : 같은 글자 연속 확인 - e나 o만 허용
         for j in range(1, len(p)):
-            if p[j-1] == p[j]:
-                if p[j] != "e" or p[j] != 'e':
-                    check3 = 0
-                    pass
+            # e나 o가 아닌 경우의 조건이어서 원래 코드면 and로 작성 필요
+            if p[j-1] == p[j] and p[j] not in ['e', 'o']:
+                check3 = 0
+                pass
 
 
         if check1 and check2 and check3:

@@ -49,7 +49,7 @@ for tc in range(T):
                 bfs(i, j)
                 
     print(ans)
-    for row in check:
-        for col in row:
-            print(col, end=" ")
-        print()
+    # for row in check:
+    #     for col in row:
+    #         print(col, end=" ")
+    #     print()

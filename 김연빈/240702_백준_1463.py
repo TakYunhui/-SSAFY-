@@ -18,14 +18,14 @@
 # 최소 연산횟수 저장하기
 
 N = int(input())
-dp = [0] * 1_000_002
+dp = [0] * 10_000_000
 
 for i in range(2, N+1):
     dp[i] = dp[i-1] + 1 # +1 하는 경우
 
     if (i % 2 == 0):
         dp[i] = min(dp[i], dp[i//2] +1)
-    elif (i % 3 == 0):
+    if (i % 3 == 0):
         dp[i] = min(dp[i], dp[i//3] +1)
 
 print(dp[N])

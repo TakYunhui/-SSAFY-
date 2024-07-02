@@ -5,7 +5,7 @@
 11053(알고리즘분류 참고함), 1012(bfs 복습)
 
 ## 풀이를 참고한 문제
-2579, [2491 풀이1](https://www.acmicpc.net/source/76664398), [2491 풀이2](https://great-park.tistory.com/124), 
+2579, [2491 풀이1](https://www.acmicpc.net/source/76664398), [2491 풀이2](https://great-park.tistory.com/124), [1463](https://jominseoo.tistory.com/98)
 
 ## 못 푼 문제
-17218(하루 고민)
+17218(하루 고민), 

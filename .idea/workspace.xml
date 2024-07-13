@@ -43,7 +43,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
-  <component name="RunManager" selected="Python.20240713_프로그래머스_기능개발">
+  <component name="RunManager" selected="Python.240713_백준_19637">
     <configuration name="20240708_프로그래머스_게임맵최단거리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="-SSAFY-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20240713_프로그래머스_기능개발" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="240713_백준_19637" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="-SSAFY-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/옥세훈" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/탁윤희" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240713_프로그래머스_기능개발.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/탁윤희/240713_백준_19637.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20240713_프로그래머스_기능개발" />
+        <item itemvalue="Python.240713_백준_19637" />
         <item itemvalue="Python.20240712_프로그래머스_더맵게" />
         <item itemvalue="Python.20240710_프로그래머스_가장큰수" />
         <item itemvalue="Python.20240709_프로그래머스_피로도" />

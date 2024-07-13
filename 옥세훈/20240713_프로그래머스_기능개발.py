@@ -20,7 +20,7 @@ def solution(progresses, speeds):
             # 앞의 수가 더 클 경우
         else:
             cnt += 1
-            
+
     answer.append(cnt)
     print(answer)
     return answer

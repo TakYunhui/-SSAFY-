@@ -26,7 +26,7 @@ def back(n, list_n, length):
             back(i, list_n, length+1)
             # 아닌 경우
             list_n.pop()
-            back(i, list_n, length)
+            # back(i, list_n, length) # 이걸 할 필요가 없음
 
 
 if (M==1):
@@ -34,4 +34,3 @@ if (M==1):
         print(i)
 else:
     back(0, arr, 0)
-# 재귀로 한개뽑고 으음

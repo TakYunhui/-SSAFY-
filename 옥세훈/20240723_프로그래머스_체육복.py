@@ -4,15 +4,10 @@ def solution(n, lost, reserve):
 
     lost.sort()
     reserve.sort()
-    for i in reserve:
-        if i in lost:
-            lost.remove(i)
+    for i in range(1, n + 1):
+        if i in lost and i in reserve:
             reserve.remove(i)
-
-    for i in reserve:
-        if i in lost:
             lost.remove(i)
-            reserve.remove(i)
 
     if reserve:
         for i in reserve:
@@ -27,5 +22,6 @@ def solution(n, lost, reserve):
     print(answer)
     return answer
 
-solution(8, [3, 7], [2,4])
+solution(10, [1, 2, 3, 4, 5, 6], [1, 2, 3])
 #  10, [1, 2, 3, 4, 5, 6], [1, 2, 3]
+

@@ -8,4 +8,4 @@
 2579, [2491 풀이1](https://www.acmicpc.net/source/76664398), [2491 풀이2](https://great-park.tistory.com/124), [1463](https://jominseoo.tistory.com/98), [15650 풀이] (https://jominseoo.tistory.com/92)
 
 ## 못 푼 문제
-17218(하루 고민), 17626(수학문제같음)
+17218(하루 고민), 17626(수학문제같음), 20920(왜지?)

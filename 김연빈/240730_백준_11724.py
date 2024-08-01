@@ -1,0 +1,35 @@
+# 연결요소의 개수
+# 연결요소의 개수: 몇 개의 그룹으로 나누어져있는가?
+# 무방향그래프
+
+from collections import deque
+
+N, M = map(int, input().split())
+
+graph = [[] for _ in range(N+1)]
+visited = [0] * (N+1)
+ans = 0
+
+def bfs(start):
+    q = deque()
+    q.append(start)
+    while q:
+        now = q.popleft()
+        for child in graph[now]:
+            if visited[child] == 0:
+                q.append(child)
+                visited[child] = 1
+
+
+for _ in range(M):
+    u, v = map(int, input().split())
+    graph[u].append(v)
+    graph[v].append(u)
+
+# 차례로 가면서 그룹찾기
+for i in range(1, N+1):
+    if visited[i] == 0:
+        ans += 1
+        bfs(i)
+
+print(ans)

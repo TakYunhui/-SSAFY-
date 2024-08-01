@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="54d0de4f-d38e-401a-86cd-f2ef46ac071f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/옥세훈/20240731_프로그래머스_ n과m(6).py" beforeDir="false" afterPath="$PROJECT_DIR$/옥세훈/20240731_백준_ n과m(6).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/옥세훈/20240731_프로그래머스_모음사전.py" beforeDir="false" afterPath="$PROJECT_DIR$/옥세훈/20240731_프로그래머스_모음사전.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +45,8 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
-  <component name="RunManager" selected="Python.20240725_프로그래머스_주식가격">
-    <configuration name="20240718_프로그래머스_프로세스" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.20240801_백준_N과M(7)">
+    <configuration name="20240726_프로그래머스_다리를 지나는 트럭" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="-SSAFY-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240718_프로그래머스_프로세스.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240726_프로그래머스_다리를 지나는 트럭.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -65,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20240720_프로그래머스_같은숫자는싫어" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20240730_프로그래머스_HIndex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="-SSAFY-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240720_프로그래머스_같은숫자는싫어.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240730_프로그래머스_HIndex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20240723_프로그래머스_체육복" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20240730_백준_n과m(5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="-SSAFY-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240723_프로그래머스_체육복.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240730_백준_n과m(5).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20240724_프로그래머스_의상" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20240731_백준_ n과m(6)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="-SSAFY-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240724_프로그래머스_의상.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240731_백준_ n과m(6).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20240725_프로그래머스_주식가격" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20240801_백준_N과M(7)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="-SSAFY-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240725_프로그래머스_주식가격.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240801_백준_N과M(7).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20240725_프로그래머스_주식가격" />
-        <item itemvalue="Python.20240724_프로그래머스_의상" />
-        <item itemvalue="Python.20240723_프로그래머스_체육복" />
-        <item itemvalue="Python.20240720_프로그래머스_같은숫자는싫어" />
-        <item itemvalue="Python.20240718_프로그래머스_프로세스" />
+        <item itemvalue="Python.20240801_백준_N과M(7)" />
+        <item itemvalue="Python.20240731_백준_ n과m(6)" />
+        <item itemvalue="Python.20240730_백준_n과m(5)" />
+        <item itemvalue="Python.20240730_프로그래머스_HIndex" />
+        <item itemvalue="Python.20240726_프로그래머스_다리를 지나는 트럭" />
       </list>
     </recent_temporary>
   </component>

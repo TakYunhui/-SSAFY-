@@ -2,6 +2,8 @@
 # 연결요소의 개수: 몇 개의 그룹으로 나누어져있는가?
 # 무방향그래프
 
+# 시간초과
+
 from collections import deque
 
 N, M = map(int, input().split())
@@ -13,6 +15,7 @@ ans = 0
 def bfs(start):
     q = deque()
     q.append(start)
+    visited[start] = 1
     while q:
         now = q.popleft()
         for child in graph[now]:

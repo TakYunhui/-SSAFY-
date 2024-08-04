@@ -7,12 +7,12 @@ total = 0
 nums = dict()
 often = (1, 0)
 
-for _ in range(N):
+for i in range(N):
     num = int(input())
     arr.append(num)
     total += num
     tmp = nums.get(num)
-    if (_ == 0):
+    if (i == 0):
         often = (1, num)
     if (tmp==None):
         nums[num] = 1

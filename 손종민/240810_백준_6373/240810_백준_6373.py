@@ -11,7 +11,6 @@ for i in range(len(data)):
     numbers = list(this_data)
     numbers = set(numbers)
     for n in range(1, len(numbers) + 1):
-        print(n)
         tmp = int(this_data) * n
         tmp_list = list(str(tmp))
         tmp_list = set(tmp_list)

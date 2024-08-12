@@ -34,5 +34,5 @@ def bfs():
 
 bfs()
   
-for i in visited:
+for i in visited[1:]:
   print(i)

@@ -1,4 +1,7 @@
 # 풀이 참고
+# 이렇게 해도 시간초과
+# sys 해야되나봄
+# 다른풀이도 찾아보기
 
 n = int(input())
 data = []
@@ -18,7 +21,6 @@ for _ in range(n):
         count[x] += 1
 
 data.sort()
-
 
 print(round(total/n))
 print(data[n//2]) # 중앙

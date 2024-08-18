@@ -7,7 +7,6 @@ r, c, k = map(int, input().split())
 # r-1, 0 => 시작점
 # 0, c-1 => 도착점
 # T는 못가는 곳
-# dfs 로 k 보다 값이 작으면 지나갈 수 있도록..
 ni, nj = [0, 1, 0, -1], [1, 0, -1, 0]
 arr = [list(input().rstrip())for _ in range(r)]
 answer = 0

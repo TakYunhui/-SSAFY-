@@ -21,3 +21,4 @@ for i in dic:
         result.append(i[0])
 
 print(*result)
+

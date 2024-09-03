@@ -16,7 +16,6 @@ while True:
     if words == "*":
         break
 
-    dic = dict()
     words_len = len(words)
     if words_len < 3:
         print(words+" is surprising.")
@@ -32,9 +31,6 @@ while True:
         else:
             flag = True
 
-    last = words[0] + words[-1]
+
     if flag:
-        if last not in dic:
-            print(words + " is surprising.")
-        else:
-            print(words + " is NOT surprising.")
+         print(words + " is surprising.")

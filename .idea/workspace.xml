@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d0de4f-d38e-401a-86cd-f2ef46ac071f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/옥세훈/20240915_프로그래머스_피보나치수.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,11 @@
         <option name="useSoftWraps" value="true" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/옥세훈" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.20240811_백준_24480">
     <configuration name="20240806_백준_헌내기는친구가필요해" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">

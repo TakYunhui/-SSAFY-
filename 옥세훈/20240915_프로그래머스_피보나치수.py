@@ -11,3 +11,4 @@ def solution(n):
 
     answer = dp[n] % 1234567
     return answer
+# test

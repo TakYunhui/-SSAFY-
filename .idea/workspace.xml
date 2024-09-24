@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d0de4f-d38e-401a-86cd-f2ef46ac071f" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/옥세훈/20240923_프로그래머스_멀리뛰기.py" beforeDir="false" afterPath="$PROJECT_DIR$/옥세훈/20240923_프로그래머스_멀리뛰기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +60,7 @@
       <recent name="$PROJECT_DIR$/옥세훈" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.20240921_프로그래머스_점프와순간이동">
-    <configuration name="20240807_백준_케빈베이컨의 6단계 법칙_RE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="-SSAFY-" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/옥세훈" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240807_백준_케빈베이컨의 6단계 법칙_RE.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.20240924_프로그래머스_N개의최소공배수">
     <configuration name="20240808_백준_숫자판 점프_RE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="-SSAFY-" />
       <option name="ENV_FILES" value="" />
@@ -171,13 +149,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="20240924_프로그래머스_N개의최소공배수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="-SSAFY-" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/옥세훈" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/옥세훈/20240924_프로그래머스_N개의최소공배수.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.20240924_프로그래머스_N개의최소공배수" />
         <item itemvalue="Python.20240921_프로그래머스_점프와순간이동" />
         <item itemvalue="Python.20240811_백준_24480" />
         <item itemvalue="Python.20240810_백준_24445" />
         <item itemvalue="Python.20240808_백준_숫자판 점프_RE" />
-        <item itemvalue="Python.20240807_백준_케빈베이컨의 6단계 법칙_RE" />
       </list>
     </recent_temporary>
   </component>

@@ -11,3 +11,4 @@ def solution(s):
     max = str(ls[-1])
     answer = min + " " + max
     return answer
+

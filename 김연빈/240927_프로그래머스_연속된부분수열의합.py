@@ -17,32 +17,36 @@ k = 7
 def solution(sequence, k):
     answer = []
     n = len(sequence)
-    sum_list = [0]*(n)
-    sum_list[0] = sequence[0]
+    sum_list = [0]*(n+1)
     point = -1
     start = n+2
     len_ans = n+2
-    if sum_list[0] >= k:
-        point = 0
-    for i in range(1, n): # 부분합
-        sum_list[i] = sum_list[i-1]+sequence[i]
+    # if sum_list[1] >= k:
+    #     point = 0
+    for i in range(1, n+1): # 부분합
+        sum_list[i] = sum_list[i-1]+sequence[i-1]
         if point!=-1 and sum_list[i] >= k:
             point = i
-    # print(sum_list)
+    print(sum_list)
     # 포인트부터 빼면서 찾기
     if sum_list[point] == k:
         answer = sequence[k:k+1]
     else:
-        while point < n:
+        while point < n+1:
             for i in range(point):
                 # 여기 조건을 잘 생각해보자
                 if (sum_list[point]-sum_list[i])==k:
+                    print(point, i, point-i+1)
                     if (len_ans>n+1) or (point-i < len_ans):
-                        if (start > n+1) or (start > i):
-                            start = i
-                            print(start)
-                            len_ans = (point - i)
-                            answer = [start, point]
+                        start = i
+                        # print(start)
+                        len_ans = (point - i)
+                        answer = [start, point-1]
+                    elif (point-i == len_ans) and (start > i):
+                        start = i
+                        # print(start)
+                        len_ans = (point - i)
+                        answer = [start, point-1]
             else:
                 point += 1
     return answer

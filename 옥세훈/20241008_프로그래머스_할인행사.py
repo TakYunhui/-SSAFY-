@@ -23,5 +23,5 @@ def solution(want, number, discount):
 
         if flag:
             answer += 1
-ㅎ
+
     return answer

@@ -13,10 +13,12 @@ for _ in range(t):
         # 누적 득표수 구하는 값
         total_votes += votes[i][1]
         # 최대 득표수가 또 있으면 득표자 수 늘림
-        if maximum_votes == votes[i][1]:
-            maximum_cnt += 1
-        else:
+        # -> 현재 득표수가 더 크면 갱신하면서 1로 초기화해야 하는 거임
+        # 현재 득표수 == 최대 득표수로 하면 다른 경우에 전부 다 1로 초기화되어버려서 제대로 된 갱신이 안 됨! 여기서 틀린 거였음
+        if maximum_votes < votes[i][1]:
             maximum_cnt = 1
+        elif maximum_votes == votes[i][1]:
+            maximum_cnt += 1
         # 최대 득표수 갱신
         maximum_votes = max(maximum_votes, votes[i][1])
 

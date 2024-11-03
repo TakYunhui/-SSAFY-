@@ -33,8 +33,8 @@ def bfs():
         # 연결상태 딕셔너리에서 now 번호를 key로 하는 values 리스트를 가져온다
         # 만약 now가 connected에 없으면 빈 리스트를 반환해 오류가 발생하지 않게 한다
         for next in connected.get(now, []):
-            if distances[next] == -1: # 아직 방문하지 않은 도시라면(연결 x)
-                distances[next] = distances[now] + 1 # 방문한 도시 개수 갱신
+            if distances[next] == -1: # 아직 방문하지 않은 도시라면
+                distances[next] = distances[now] + 1 # 여기까지 오기 전 방문한 기존 도시 개수 + 방문한 도시 1개 추가하면서 방문하게 함 
                 queue.append(next)
 
     return distances[1:] # 1번부터 n번까지 최소 방문 도시 수

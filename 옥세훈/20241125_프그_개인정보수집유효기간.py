@@ -1,26 +1,22 @@
-from datetime import datetime
+def dayday(date):
+    y, m, d = map(int, date.split("."))
+    return y*12*28 + m*28 + d
 
 def solution(today, terms, privacies):
     answer = []
-    
-    today = datetime.strptime(today, '%Y.%m.%d').date()
+    today = dayday(today)
     
     dic = dict()
-    for i in terms:
-        term, m = i.split()
-        dic[term] = int(m) * 28
-
-    for i, j in enumerate(privacies):
-        when, term = j.split(" ")
-        when = datetime.strptime(when, '%Y.%m.%d').date()
+    for t in terms:
+        type_, period = t.split()
+        dic[type_] = int(period) * 28
         
-        # 현재 - 과거 
-        check = list(str(today - when).split(" "))
-        hi = int(check[0]) // 28
-        num = (hi * 28)-1
-        print(num, dic[term])
-
-        if num > dic[term]:
-            answer.append(i+1)
+    for idx, p in enumerate(privacies):
+        num = idx + 1
+        date, type_ = p.split()
+        
+        if dayday(date) + dic[type_] - 1 < today:
+            answer.append(num)
+    
     
     return answer

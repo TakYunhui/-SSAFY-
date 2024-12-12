@@ -1,6 +1,7 @@
 from collections import deque
 import sys
 
+input = sys.stdin.readline
 
 n, m = map(int, input().split())
 graph = [[] for _ in range(n + 1)]
@@ -24,11 +25,19 @@ while q:
             visited[i] = visited[cur] + 1
             q.append(i)
 
-number = 1000000000000000000000
-max_length = max(visited)
-max_cnt = 0
+# min, max function으로 비교 말고 if로 해결하기
+number, max_length, cnt = 0,0,0
 for i in range(1, n+1):
-    if visited[i] == max_length:
-        number = min(i, number)
-        max_cnt += 1
-print(number, max_length, max_cnt)
+    if max_length > visited[i]: continue # 최대 거리보다 작으면 넘어감
+    elif max_length == visited[i]:
+        cnt += 1
+        continue # 여기 컨티뉴 넣는 이유?
+    elif max_length < visited[i]: # 현재 방문 값의 거리가 최대라면
+        # 아래와 같이 정의하면 최대 거리의 가장 작은 번호 한번만 들어간다
+        # 왜냐면 < 조건이어서 같은 값들은 cnt 카운트만 하게 됨
+        number = i
+        max_length = visited[i]
+        cnt = 1
+        continue
+
+print(number, max_length, cnt)

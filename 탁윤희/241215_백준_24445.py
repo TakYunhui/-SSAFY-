@@ -29,6 +29,6 @@ while q:
             visited[node] = cnt
             cnt += 1
             q.append(node)
-
+# 출력
 for i in range(1, n+1):
     print(visited[i])

@@ -5,24 +5,21 @@ if n > 0:
     
   rank = 0
 
-  for i in range(n):
-    rank += 1
-    
-    if i > p or arr[i] == new:
-      break
-      
-  
-  if n < p:
-    if arr[-1] >= new:
-      print(rank+1)
-    else:
-      print(rank)
+  if arr[-1] >= new and n == p:
+    print(-1)
+
+  # new가 들어갈 자리가 있을 때
   else:
-    if arr[p-1] >= new:
-      print(-1)
-    else:
-      print(rank)
+
+    for i in range(n):
+      rank += 1
       
-    
+      if arr[i] <= new:
+        print(rank)
+        break
+
+    else:
+      print(rank+1)
+      
 else:
   print(1)

@@ -1,5 +1,5 @@
 # 실버 1. 태권왕
-# 수정점: check 배열이 필요 없어서 빠짐 -> 4ms 단축, 코드 길이 단축
+# 수정점: check 배열이 필요 없어서 빠짐 -> 4ms 단축, 코드  길이 단축
 from collections import deque
 import sys
 input = sys.stdin.readline

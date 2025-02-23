@@ -27,7 +27,9 @@ for word in words:
         pattern.append(mapping[char])
     # 패턴을 튜플로 변환하여 사용
     # 패턴 별 등장 횟수 집계
+    print(pattern,mapping)
     pattern_count[tuple(pattern)] += 1
+print(pattern_count)
 
 # 같은 패턴을 가진 단어쌍 개수 계산
 result = 0

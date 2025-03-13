@@ -15,13 +15,12 @@ int airUp, airDown;
 void diffuse() {
     vector<vector<int>> temp(R, vector<int>(C, 0));
     
-    // 공기청정기 위치
+    // 공기청정기 위치는 항상 -1
     temp[airUp][0] = -1;
     temp[airDown][0] = -1;
     
     for (int i = 0; i < R; i++){
         for (int j = 0; j < C; j++){
-
             if(board[i][j] == -1) continue;
             
             int amount = board[i][j];
@@ -48,11 +47,11 @@ void diffuse() {
     board = temp;
 }
 
-// 미세먼지 이동
+// 미세먼지 이동 (공기청정기 작동)
 void purify() {
     // 상단 공기청정기: 반시계방향 순환
-    for (int i = airUp - 1; i >= 0; i--) {
-        board[i+1][0] = board[i][0];
+    for (int i = airUp - 1; i > 0; i--) {
+        board[i][0] = board[i-1][0];
     }
     for (int j = 0; j < C - 1; j++){
         board[0][j] = board[0][j+1];
@@ -60,15 +59,14 @@ void purify() {
     for (int i = 0; i < airUp; i++){
         board[i][C-1] = board[i+1][C-1];
     }
-    for (int j = C - 1; j >= 1; j--){
+    for (int j = C - 1; j >= 2; j--){
         board[airUp][j] = board[airUp][j-1];
     }
-    // 공기청정기 바로 오른쪽 칸은 0 처리
     board[airUp][1] = 0;
-    
+
     // 하단 공기청정기: 시계방향 순환
-    for (int i = airDown + 1; i < R; i++){
-        board[i-1][0] = board[i][0];
+    for (int i = airDown + 1; i < R-1; i++){
+        board[i][0] = board[i+1][0];
     }
     for (int j = 0; j < C - 1; j++){
         board[R-1][j] = board[R-1][j+1];
@@ -76,10 +74,9 @@ void purify() {
     for (int i = R - 1; i > airDown; i--){
         board[i][C-1] = board[i-1][C-1];
     }
-    for (int j = C - 1; j >= 1; j--){
+    for (int j = C - 1; j >= 2; j--){
         board[airDown][j] = board[airDown][j-1];
     }
-    // 공기청정기 바로 오른쪽 칸은 0 처리
     board[airDown][1] = 0;
 }
 
@@ -110,7 +107,7 @@ int main(){
         purify();     // 공기청정기 작동
     }
     
-    // 남아있는 미세먼지의 총 합 계산
+    // 남아있는 미세먼지의 총 합 계산 (공기청정기 칸은 제외)
     int answer = 0;
     for (int i = 0; i < R; i++){
         for (int j = 0; j < C; j++){

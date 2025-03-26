@@ -6,7 +6,7 @@
 
 ## 풀이를 참고한 문제
 2579, [2491 풀이1](https://www.acmicpc.net/source/76664398), [2491 풀이2](https://great-park.tistory.com/124), [1463](https://jominseoo.tistory.com/98), [15650 풀이] (https://jominseoo.tistory.com/92), 
-[17218](https://codingwonny.tistory.com/277), [2530](https://edder773.tistory.com/116)
+[17218](https://codingwonny.tistory.com/277), [2530](https://edder773.tistory.com/116), [9084](https://d-cron.tistory.com/23), [2156](https://codingwonny.tistory.com/188)
 
 ## 못 푼 문제
 17218(하루 고민), 17626(수학문제같음), 20920(왜지?), 11724(시간초과), 2108(시간초과)

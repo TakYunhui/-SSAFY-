@@ -1,4 +1,4 @@
-// 2637 - 장남감 조립
+// 2637 - 장난감 조립
 #include <iostream>
 #include <vector>
 #include <queue>
